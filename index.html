@@ -10,22 +10,27 @@
 </head>
 <body>
   <header class="header">
-    <img src="imgs/logo.svg" alt="This is the logo for a company named Netbook and is a circ split diagonal with orange and yellow section and a line with a dot in the end">
+    <img src="imgs/logo.svg" alt="This is the logo for a company named Netbook and is a circ split diagonal with orange and yellow section and a line with a dot in the end" 
+    wigth=" 145"
+    height="35"/>
 
-    <div class="header_nav">
-      <nav>
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="">Community</a></li>
-          <li><a href="">Blog</a></li>
-          <li><a href="">Events</a></li>
-        </ul>
-      </nav>
-    </div>
+    
+    <nav class="header_nav">
+      <ul>
+        <li><a href="#" class="active">Home</a></li>
+        <li><a href="">Community</a></li>
+        <li><a href="">Blog</a></li>
+        <li><a href="">Events</a></li>
+      </ul>
+    </nav>
+    
 
-    <div>
-      <input type="search" />
-      <a href="/login">Log in</a>
+    <div class="header_actions">
+      <form class="header_search" action="">
+        <img src="./imgs/ico_search.svg" alt="Maginify glass icon for search" width="16" height="16"/>
+        <input type="search" aria-label="search" placeholder="search here..."/>
+      </form>
+      <a href="/login" class="btn">Log in</a>
     </div>
   </header>
 
